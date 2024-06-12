@@ -60,8 +60,13 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview")
     implementation("androidx.compose.material3:material3")
 
+    //viewmodel
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.1")
+    //Location Services for Android
     implementation ("com.google.android.gms:play-services-location:21.3.0")
+    //Google Maps SDK for Android
+    implementation ("com.google.android.gms:play-services-maps:18.2.0")
+
 
 
     testImplementation("junit:junit:4.13.2")
